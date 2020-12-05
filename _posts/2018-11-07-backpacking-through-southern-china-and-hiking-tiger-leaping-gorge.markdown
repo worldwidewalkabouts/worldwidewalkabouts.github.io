@@ -9,7 +9,7 @@ image: /assets/
 
 After having spent a couple weeks exploring China, I'd climbed the wild and rugged Great Wall, taught English in Xi'an, climbed the famous Huashan mountain, eaten spicy hot pot in Chengdu, and visited an old thatched cottage of a famous poet. But I was still looking for another thrilling adventure. After traveling by train for a couple days, I made my way to one of the most beautiful villages in China, Lijang.
 
-<iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Lijiang,%20Yunnan,%20China&amp;output=embed"></iframe>
+{% include map.html query="Lijiang,%20Yunnan,%20China" %}
 
 Lijang is situated in-between mountains on all sides, towering above the manmade city. I stayed in a small guest house, with a couple of other travelers. And because I was actually a little sick during that time, I extended my stay to rest a couple days. And I'm so thankful I did, because I wouldn't have met the people I did. I met a South Korean girl, Suin, who had been a well-experienced traveler, traveling for a few years to countless countries. I met an American girl, Kim, who had just finished teaching English in China for the past year. And I met a French guy, Vincent, who was once a web developer who quit his job to travel the world. While spending a couple days at the guest house, I found out that all three of the people I met wanted to hike Tiger Leaping Gorge. So we decided to take a chartered van together.
 

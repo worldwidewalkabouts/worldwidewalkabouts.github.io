@@ -1,0 +1,28 @@
+{% assign images = include.images | split: ';' %}
+
+<style>
+    .gallery {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+
+    .gallery .item {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .gallery .item img {
+        vertical-align: middle;
+    }
+</style>
+
+<div class="gallery">
+    {% for item in images %}
+    <img src="{{ include.base }}{{ item }}" />
+    {% endfor %}
+</div>

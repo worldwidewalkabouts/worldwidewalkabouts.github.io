@@ -15,7 +15,7 @@ In 2015, an earthquake struck Nepal, killing thousands of people, destroying hom
 
 ## Where on Earth is Sindhupalchok, Nepal?
 
-<iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Sindhupalchok%20Nepal&amp;output=embed"></iframe>
+{% include map.html query="Sindhupalchok%20Nepal" %}
 
 While volunteering with All Hands and Hearts, I worked for five months to help rebuild a school out in the Sindhupalchok region of Nepal, which is located about 33 km outside of Kathmandu. Sindhupalchok is in Langtang National Park, just South of the Himalayan mountain range. Even though it is a short distance away from Kathmandu, it takes about five hours to get to by bus on account of the roads being eroded. Riding a bus in Nepal is an experience I will not soon forget.
 
@@ -43,6 +43,4 @@ After a month of volunteering, I decided that I wanted to take on more responsib
 
 In the end, this became the best experience out of my entire time abroad in 2017-2018. I can’t wait to engage in more volunteer work such as this.
 
-<iframe type="text/html" width="100%" height="420"
-  src="https://www.youtube.com/embed/0Sr6WTyDKfc?autoplay=1"
-  frameborder="0"></iframe>
+{% include youtube.html id="0Sr6WTyDKfc" %}
