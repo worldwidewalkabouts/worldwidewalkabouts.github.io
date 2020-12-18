@@ -1,14 +1,17 @@
 {% assign images = include.images | split: ';' %}
 
 <style>
+    .gallery-container {
+        border-style: solid;
+        border-width: 1px;
+        border-color: lightslategrey;
+        padding: 8px;
+    }
+
     .gallery {
         display: grid;
         grid-gap: 10px;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-
-    .gallery img {
-        width: 100%;
     }
 
     .gallery .item {
@@ -17,12 +20,17 @@
     }
 
     .gallery .item img {
+        border-width: 1px;
         vertical-align: middle;
     }
 </style>
 
-<div class="gallery">
-    {% for item in images %}
-    <img src="{{ include.base }}{{ item }}" />
-    {% endfor %}
+<div class="gallery-container">
+    <center>
+        <div class="gallery">
+            {% for item in images %}
+            <img src="{{ include.base }}{{ item }}" />
+            {% endfor %}
+        </div>
+    </center>
 </div>
